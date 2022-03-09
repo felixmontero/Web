@@ -41,22 +41,29 @@ body {
     padding: 0;
     font-weight: bold;
     display: block;
+    
   }
   
   .login-box input {
     width: 100%;
     margin-bottom: 20px;
+    
   }
   
   .login-box input[type="text"], .login-box input[type="password"] {
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid red;
     background: transparent;
     outline: none;
     height: 40px;
     color: #fff;
     font-size: 16px;
+  
   }
+  input[type="text"]:focus,  input[type="password"]:focus {
+    background-color: rgb(34, 33, 33);
+  }
+
   
   .login-box input[type="submit"] {
     border: none;
@@ -66,12 +73,14 @@ body {
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
+    
   }
   
   .login-box input[type="submit"]:hover {
     cursor: pointer;
     background: #ffc107;
     color: #000;
+    
   }
   
   .login-box a {
@@ -79,6 +88,7 @@ body {
     font-size: 12px;
     line-height: 20px;
     color: darkgrey;
+    
   }
   
   .login-box a:hover {
