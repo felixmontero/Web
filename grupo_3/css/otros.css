@@ -8,7 +8,6 @@ body {
 }	
 
 header {
-	background-color: #0066ff;
 	padding: 1%;
 	text-align:	right;
 	font-size: 30px;
@@ -17,7 +16,9 @@ header {
 	margin-left: -15px;
 	margin-right: -15px;
 }	
-
+ article{
+	color: black; 
+ } 
 .rojo{
 	text-align: center;	
 }	
