@@ -5,14 +5,15 @@ body {
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
+    
   }
   
   .login-box {
     width: 320px;
     height: 420px;
-    background: #000;
-    color: #fff;
-    top: 50%;
+    background: rgb(255, 255, 255);
+    color: rgb(19, 18, 18);
+    top: 65%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -52,24 +53,24 @@ body {
   
   .login-box input[type="text"], .login-box input[type="password"] {
     border: none;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid blue;
     background: transparent;
     outline: none;
     height: 40px;
-    color: #fff;
+    color: rgb(22, 22, 22);
     font-size: 16px;
   
   }
   input[type="text"]:focus,  input[type="password"]:focus {
-    background-color: rgb(34, 33, 33);
+    background-color: rgb(184, 184, 184);
   }
 
   
   .login-box input[type="submit"] {
     border: none;
     outline: none;
-    height: 40px;
-    background: #b80f22;
+    height: 50px;
+    background: #120fb8;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
@@ -83,11 +84,12 @@ body {
     
   }
   
-  .login-box a {
+  .link {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
     color: darkgrey;
+    height: 10%;
     
   }
   
