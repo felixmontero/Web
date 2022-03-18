@@ -1,0 +1,119 @@
+<html lang="en">
+	<head>
+		<title>Psarela de pago</title> 
+		<meta charset="UTF-8">	
+		<link rel="stylesheet" href="../css/index.css">
+		<link rel="icon" type="image/x-icon" href="img/pc.png">
+		<link rel="stylesheet" href="../css/compra.css">
+		<link rel="stylesheet" href="../css/registrarse.css"> 
+		<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header style="background-image: url('../img/circuito.jpg');">
+			<h2 class="rojo">Tus componentes</h2>
+			
+			<div class="nav">
+				<a class="active" href="Nosotros.html">Nosotros</a>
+				<a class="active" href="Consola.html">Consolas</a>
+				<a class="active" href="Ordenadores.html">Ordendores</a>
+				<a class="active" href="otros.html">otros</a>
+				<a class="busca" href="log in.html">log in</a>
+				<a class="active" href="../index.html">index</a>
+			<div class="active">
+				<form action="/action_page.php">
+					<input type="text" placeholder="Search.." name="search">
+					<button type="submit"><i class="fa fa-search"></i> </button>
+				</form>
+			</div>
+			</div>
+		</header>
+		<section>
+			<article>
+				<div class="fila">
+        <div class="columna-75">
+          <div class="formulario">
+            <form action="/action_page.php">
+              <div class="fila">
+                <div class="columna-50">
+                    
+                  <h3>Dirección de envio</h3>
+                  <label for="fname"><i class="fa fa-user"></i> Nombre Completo</label>
+                  <input type="text" id="fname" name="firstname" placeholder="José Antonio">
+                  <label for="email"><i class="fa fa-envelope"></i> Correo Electrónico</label>
+                  <input type="text" id="email" name="email" placeholder="correo@gmail.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Dirección</label>
+                  <input type="text" id="adr" name="address" placeholder="calle Manacor 1A">
+                  <label for="city"><i class="fa fa-institution"></i> Ciudad</label>
+                  <input type="text" id="city" name="city" placeholder="Madrid">
+      
+                  <div class="fila">
+                    <div class="columna-50">
+                      <label for="state">Estado</label>
+                      <input type="text" id="state" name="state" placeholder="ESP">
+                    </div>
+                    <div class="columna-50">
+                      <label for="zip">Código postal</label>
+                      <input type="text" id="zip" name="zip" placeholder="01009">
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="columna-50">
+                  <h3>Información de pago</h3>
+                  <label for="fname">Cartas acceptadas</label>
+                  <div class="icon-formulario">
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                  </div>
+                  <label for="cname">Nombre de la tarjeta</label>
+                  <input type="text" id="cname" name="cardname" placeholder="mastercard">
+                  <label for="ccnum">Número de tarjeta</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Fecha de expiración</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="Agosto">
+      
+                  <div class="fila">
+                    <div class="columna-50">
+                      <label for="expyear">Año de expiración</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2023">
+                    </div>
+                    <div class="columna-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="244">
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Dirección de envío igual que facturación
+              </label>
+              <input type="submit" value="Realizar Compra" class="btn">
+            </form>
+          </div>
+        </div>
+      
+        <div class="columna-25">
+          <div class="formulario">
+            <h4> Cesta
+              <span class="price" style="color:black">
+                <i class="fa fa-shopping-cart"></i>
+                <b>4</b>
+              </span>
+            </h4>
+            <p><a href="#">Pc Willy</a> <span class="price">3799€</span></p>
+            <p><a href="#">LG </a> <span class="price">169,37€</span></p>
+            <p><a href="#">Xbox</a> <span class="price">269.99€</span></p>
+            <p><a href="#">PS4 </a> <span class="price">299.99€</span></p>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>$3814</b></span></p>
+          </div>
+        </div>
+      </div>
+			</article>
+		</section>
+	
+	</body>
+</html>
