@@ -1,0 +1,19 @@
+div {
+	border: 1px solid black;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 400px;
+	margin-left: 600px;
+	background-color: lightblue;
+	width: 750px;
+	position:relative;
+}
+
+.Perfil{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+	padding: 70px 30px;
+	width: 550px;
+}	
